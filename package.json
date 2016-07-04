@@ -3,19 +3,30 @@
     "start": "live-server"
   },
   "jspm": {
-    "directories": {},
     "dependencies": {
-      "angular2": "npm:angular2@2.0.0-beta.3"
+      "@angular/common": "npm:@angular/common@^2.0.0-rc.4",
+      "@angular/compiler": "npm:@angular/compiler@^2.0.0-rc.4",
+      "@angular/core": "npm:@angular/core@^2.0.0-rc.4",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^2.0.0-rc.4",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^2.0.0-rc.4",
+      "rxjs": "npm:rxjs@^5.0.0-beta.6",
+      "zone.js": "npm:zone.js@^0.6.12"
     },
     "devDependencies": {
       "typescript": "npm:typescript@1.5.3"
     }
   },
   "dependencies": {
-    "angular2": "^2.0.0-beta.3",
-    "zone.js": "^0.5.11"
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "jspm": "^0.16.39",
     "live-server": "^0.9.0"
   }
 }

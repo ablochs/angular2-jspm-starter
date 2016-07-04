@@ -17,9 +17,15 @@ System.config({
   },
 
   map: {
+    "@angular/common": "npm:@angular/common@2.0.0-rc.4",
+    "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.4",
+    "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+    "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0-rc.4",
     "angular2": "npm:angular2@2.0.0-beta.3",
     "rxjs": "npm:rxjs@5.0.0-beta.0",
     "typescript": "npm:typescript@1.5.3",
+    "zone.js": "npm:zone.js@0.6.12",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -55,6 +61,32 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "npm:@angular/common@2.0.0-rc.4": {
+      "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/compiler@2.0.0-rc.4": {
+      "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/core@2.0.0-rc.4": {
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "rxjs": "npm:rxjs@5.0.0-beta.6",
+      "zone.js": "npm:zone.js@0.6.12"
+    },
+    "npm:@angular/platform-browser-dynamic@2.0.0-rc.4": {
+      "@angular/common": "npm:@angular/common@2.0.0-rc.4",
+      "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.4",
+      "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.4",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/platform-browser@2.0.0-rc.4": {
+      "@angular/common": "npm:@angular/common@2.0.0-rc.4",
+      "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.4",
+      "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:angular2@2.0.0-beta.3": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
@@ -285,6 +317,10 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:rxjs@5.0.0-beta.6": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:sha.js@2.4.4": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -317,6 +353,10 @@ System.config({
     },
     "npm:zone.js@0.5.11": {
       "es6-promise": "npm:es6-promise@3.0.2",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:zone.js@0.6.12": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }
