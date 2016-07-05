@@ -23,11 +23,11 @@ System.config({
     "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.4",
     "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0-rc.4",
     "angular2": "npm:angular2@2.0.0-beta.3",
-    "rxjs": "npm:rxjs@5.0.0-beta.0",
+    "rxjs": "npm:rxjs@5.0.0-beta.9",
     "typescript": "npm:typescript@1.5.3",
     "zone.js": "npm:zone.js@0.6.12",
     "github:jspm/nodelibs-assert@0.1.0": {
-      "assert": "npm:assert@1.3.0"
+      "assert": "npm:assert@1.4.1"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.6.0"
@@ -48,7 +48,7 @@ System.config({
       "path-browserify": "npm:path-browserify@0.0.0"
     },
     "github:jspm/nodelibs-process@0.1.2": {
-      "process": "npm:process@0.11.2"
+      "process": "npm:process@0.11.5"
     },
     "github:jspm/nodelibs-stream@0.1.0": {
       "stream-browserify": "npm:stream-browserify@1.0.0"
@@ -105,7 +105,10 @@ System.config({
       "minimalistic-assert": "npm:minimalistic-assert@1.0.0",
       "vm": "github:jspm/nodelibs-vm@0.1.0"
     },
-    "npm:assert@1.3.0": {
+    "npm:assert@1.4.1": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
       "util": "npm:util@0.10.3"
     },
     "npm:bn.js@4.10.1": {
@@ -278,8 +281,10 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:process@0.11.2": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0"
+    "npm:process@0.11.5": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "vm": "github:jspm/nodelibs-vm@0.1.0"
     },
     "npm:public-encrypt@4.0.0": {
       "bn.js": "npm:bn.js@4.10.1",
@@ -320,6 +325,11 @@ System.config({
     "npm:rxjs@5.0.0-beta.6": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:rxjs@5.0.0-beta.9": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "symbol-observable": "npm:symbol-observable@0.2.4"
     },
     "npm:sha.js@2.4.4": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
